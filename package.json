@@ -1,12 +1,11 @@
 {
-  "name": "@vegardit/prisma-generator-nestjs-dto",
+  "name": "@j-junckes/prisma-generator-nestjs-dto",
   "description": "Generates DTO and Entity classes from Prisma Schema for NestJS",
-  "version": "1.5.1",
+  "version": "1.6.0",
   "license": "Apache-2.0",
   "author": {
-    "name": "Benjamin Kroeger",
-    "email": "bk@vegardit.com",
-    "url": "https://vegardit.com/"
+    "name": "Iris Junckes",
+    "email": "me@junckes.dev"
   },
   "main": "dist/index.js",
   "keywords": [
@@ -31,7 +30,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vegardit/prisma-generator-nestjs-dto"
+    "url": "https://github.com/j-junckes/prisma-generator-nestjs-dto"
   },
   "bin": {
     "prisma-generator-nestjs-dto": "dist/cli.js"
@@ -46,27 +45,32 @@
     "access": "public"
   },
   "dependencies": {
-    "@prisma/generator-helper": "^3.2.1",
-    "@prisma/sdk": "^3.2.1",
+    "@prisma/generator-helper": "^5.7.1",
+    "@prisma/sdk": "^3.15.2",
     "case": "^1.6.3",
-    "make-dir": "^3.1.0",
-    "slash": "^3.0.0",
-    "tar": "^6.1.11"
+    "make-dir": "^4.0.0",
+    "slash": "^5.1.0",
+    "tar": "^6.2.0"
   },
   "devDependencies": {
-    "@types/jest": "^27.0.2",
-    "@types/node": "^17.0.1",
-    "@typescript-eslint/eslint-plugin": "^4.33.0",
-    "@typescript-eslint/parser": "^4.33.0",
-    "eslint": "^7.32.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "jest": "^27.2.4",
-    "prettier": "^2.4.1",
-    "prisma": "^3.2.1",
-    "rimraf": "^3.0.2",
-    "ts-jest": "^27.0.5",
-    "ts-node": "^10.2.1",
-    "typescript": "^4.4.3"
+    "@types/jest": "^29.5.11",
+    "@types/node": "^20.10.5",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.1.1",
+    "prisma": "^5.7.1",
+    "rimraf": "^5.0.5",
+    "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "prettier": "^3.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0"
   }
 }
